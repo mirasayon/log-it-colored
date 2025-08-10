@@ -1,6 +1,6 @@
 {
     "name": "log-it-colored",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "Miniature ready-to-use console logger that just writes in a given color",
     "type": "module",
     "main": "dist/index.js",
@@ -29,10 +29,10 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/mirasayon/log-it-with-color.git"
+        "url": "https://github.com/mirasayon/log-it-colored.git"
     },
     "bugs": {
-        "url": "https://github.com/mirasayon/log-it-with-color/issues"
+        "url": "https://github.com/mirasayon/log-it-colored/issues"
     },
     "files": [
         "dist"
