@@ -1,0 +1,66 @@
+{
+    "name": "log-it-colored",
+    "version": "0.0.1",
+    "description": "Miniature ready-to-use console logger that just writes in a given color",
+    "type": "module",
+    "main": "dist/index.js",
+    "license": "MIT",
+    "types": "dist/index.d.ts",
+    "scripts": {
+        "dev": "tsx watch src/index.ts",
+        "ts:inspect": "tsc --noEmit --watch",
+        "build": "rimraf dist && tsc --build && tsc-alias"
+    },
+    "module": "dist/index.js",
+    "author": {
+        "email": "mirasayon@ya.ru",
+        "name": "Miralisher",
+        "url": "https://mirasayon.com"
+    },
+    "dependencies": {
+        "chalk": "^5.5.0"
+    },
+    "devDependencies": {
+        "@types/node": "^24.2.1",
+        "typescript": "^5.9.2",
+        "rimraf": "^6.0.1",
+        "tsc-alias": "^1.8.16",
+        "tsx": "^4.20.3"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/mirasayon/log-it-with-color.git"
+    },
+    "bugs": {
+        "url": "https://github.com/mirasayon/log-it-with-color/issues"
+    },
+    "files": [
+        "dist"
+    ],
+    "keywords": [
+        "tiny-logger",
+        "colored-logger",
+        "color",
+        "colour",
+        "colors",
+        "terminal",
+        "console",
+        "cli",
+        "string",
+        "ansi",
+        "style",
+        "styles",
+        "tty",
+        "formatting",
+        "rgb",
+        "256",
+        "shell",
+        "xterm",
+        "log",
+        "logging",
+        "command-line",
+        "text"
+    ],
+    "funding": "https://github.com/sponsors/mirasayon"
+}
+

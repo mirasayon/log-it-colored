@@ -1,0 +1,11 @@
+/.vscode
+/drafts.md
+/src
+/post-up.ts
+/post-pack.ts
+/logs
+/node_modules
+/.prettierrc
+/tsconfig.json
+
+/temp
